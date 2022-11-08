@@ -62,7 +62,7 @@ header {
     height: 30px;
     width: 100px;
     cursor: pointer;
-    border-color: brown;
+    background-color: brown;
     border: none;
     color: white;
     transition: all 0.3s ease;
