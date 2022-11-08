@@ -1,7 +1,7 @@
 const imgItem = document.querySelectorAll(".aspect-ratio-169 img")
 const imgItemContainer = document.querySelector(".aspect-ratio-169")
 const dotItem = document.querySelectorAll(".dot")
-let index = 0
+let index = 0   
 let imgLeng = imgItem.length
 imgItem.forEach(function (image, index){
     image.style.left = index*100 + "%"
@@ -25,4 +25,4 @@ function slideRun (index) {
     dotItem[index].classList.add("active");
 }
 
-setInterval(slider, 50000)
+setInterval(slider, 5000)
